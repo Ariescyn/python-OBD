@@ -11,6 +11,12 @@ Installation
 ```Shell
 $ pip install obd
 ```
+If you receive a "cannot import name 'MutableMapping' from 'collections'" ImportError:
+```Shell
+$ git clone https://github.com/brendan-w/python-OBD.git
+  pip3 install ./python-OBD
+  
+```
 
 Basic Usage
 -----------
